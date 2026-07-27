@@ -1,7 +1,9 @@
+import { Button } from "@/components/ui/button";
+
 export default function HomePage() {
   return (
     <main>
-      <h1>FFIB 2.0</h1>
+      <Button>FFIB 2.0</Button>
     </main>
   );
 }
