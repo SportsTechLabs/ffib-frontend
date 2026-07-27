@@ -1,9 +1,9 @@
-import { Button } from "@/components/ui/button";
+import { LandingCard } from '@/components/features/landing/LandingCard';
 
 export default function HomePage() {
   return (
-    <main>
-      <Button>FFIB 2.0</Button>
+    <main className="flex min-h-screen items-center justify-center bg-muted/30 p-6">
+      <LandingCard />
     </main>
   );
 }
